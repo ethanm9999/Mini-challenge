@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: gray;
+}
+
+nav li, nav a {
+  display: inline-block;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px 20px;
+  color: white;
+}
+
+nav a:hover {
+  background-color: blue;
+}
+
+body {
+  background-color: green;
+}
+
+#main {
+  padding: 90px 0px 60px 60px;
+  background-color: green;
+  width: 80%;
+}
+
+#insidetext {
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+#image {
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+}
+
+#other-images {
+  background-size: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+
+#anycontent {
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+#lastcontent {
+  padding: 20px;
+  background-color: aquamarine;
+}

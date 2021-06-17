@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: gray;
+}
+
+nav li, nav a {
+  display: inline-block;
+}
+
+nav ul {
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px 20px;
+  color: white;
+}
+
+nav a:hover {
+  background-color: blue;
+}
+
+#page1 {
+  background-color: green;
+  padding: 80px 40px 40px 40px;
+  margin: 20px 0px 0px 0px;
+}
+
+#page2 {
+  background-color: aquamarine;
+  padding: 40px;
+  margin: 0px;
+}
+
+#page3 {
+  background-color: green;
+  padding: 40px;
+  margin: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
